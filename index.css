@@ -1,9 +1,30 @@
 h1{
     text-align: Center;
     font-family: Helvetica;
-    color: white;
-    font-size: 5em;}
-    body{
-        background-color: burlywood;
+    color: blue;
+    font-size: 5em;
+     font-weight: bold;
+}
 
+       body{  
+        background-color: white
     }
+
+
+    
+.header{
+    display: inline-block;
+    text-align: center;
+
+
+}
+nav{
+    text-align: center;
+    font-weight: bold;
+
+}
+section{
+    text-align:  center;
+    font-size: 1em;
+    font-weight: bold;
+}
