@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -11,14 +12,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0 auto;
+    margin: center;
+    display: inline-block;
 }
 nav {
     width: 100%;
     height: 10%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     background-color:black
 }
 .logo{
@@ -26,9 +28,10 @@ nav {
 }
 .navbar-links{
     width: 50%;
+    scroll-behavior: smooth;
 }
 ul{
-    display: Flex;
+    display:flex;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -63,3 +66,22 @@ section{
     color: antiquewhite;
     text-align: center;
 }
+.card{
+    width: 85m;
+    align-items: center;
+}
+.NavBarPrd{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Track2.jpg);
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: center;
+}
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
