@@ -1,4 +1,4 @@
-const apiBaseURL = "http://microbloglite.us-east-2.elasticbeanstalk.com/auth/login";
+const apiBaseURL = "http://microbloglite.us-east-2.elasticbeanstalk.com";
 const username = document.getElementById("username");
 const fullName = document.getElementById("fullName");
 const password = document.getElementById("password");

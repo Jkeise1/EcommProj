@@ -9,12 +9,17 @@ align-items: center;
 height: 100vh;
 }
 
-.signup-container {
-background-color: #57236c91;;
-padding: 20px;
-border-radius: 8px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-width: 300px;
+ .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #57236c91;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: px; 
+    box-sizing: border-box;
 }
 
 label {
