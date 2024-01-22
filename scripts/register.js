@@ -7,10 +7,12 @@ const usernameErrorMessage = document.getElementById("usernameErrorMessage");
 const fullNameErrorMessage = document.getElementById("fullNameErrorMessage");
 const passwordErrorMessage = document.getElementById("passwordErrorMessage");
 const registerButton = document.getElementById("registerButton");
+
 function togglePassword() {
     const passwordInput = document.getElementById("password");
     passwordInput.type = passwordInput.type === "password" ? "text" : "password";
 }
+
 function register() {
     formErrorMessage.textContent = "";
     usernameErrorMessage.textContent = "";
@@ -39,6 +41,7 @@ function register() {
         handleRegistrationError({ message: "Password must be at least 8 characters long." });
     }
 }
+
 function handleRegistrationError(error) {
     username.classList.add("error");
     fullName.classList.add("error");
@@ -63,6 +66,7 @@ function handleRegistrationError(error) {
         passwordErrorMessage.textContent = "Password must be at least 8 characters long.";
     }
 }
+
 function resetForm() {
     username.classList.remove("error");
     fullName.classList.remove("error");
