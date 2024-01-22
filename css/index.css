@@ -1,9 +1,54 @@
-
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: black;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 15px; 
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    li {
+        margin: 5px 0; 
+    }
 }
 .popup-form {
     display: none;
@@ -16,15 +61,14 @@ body {
     border: 1px solid #ccc;
     z-index: 2;
 }
-
 .popup-form form {
     display: flex;
     flex-direction: column;
 }
-
 .popup-form button {
     margin-top: 10px;
 }
+<<<<<<< HEAD
 .container{
     width: 100%;
     height: 100vh;
@@ -70,63 +114,7 @@ ul li{
     margin-left: 1em;
     font-family: 'Moon 2.0', sans-serif;
     color: white;
+=======
+>>>>>>> 363bb4ed4b0e75472eb3c36683cfcca913685185
 
-
-}
-a {
-    text-decoration: none;
-    color: whitesmoke
-}
-li:hover {
-    transition:all 0.5s ease-in;
-    background-color:red;
-
-}
-section{
-    color: antiquewhite;
-    text-align: center;
-}
-.card{
-    width: 85m;
-    align-items: center;
-}
-.NavBarPrd{
-    width: 100%;
-    height: 100vh;
-    background-image: url(./images/Track2.jpg);
-    background-size: cover;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: center;
-}
-@media (min-width: 1025px) {
-    .h-custom {
-    height: 100vh !important;
-    }
-    }
-    
-.top{text-align: center;
-    float: inline-start;
-
-}
-/* Desktop style (greater than 768px) */
-@media only screen and (min-width: 769px) {
-    .mobile-element {
-      display: none; /* Hide element on desktop */
-    }
-    .desktop-element {
-      display: block; /* Shows element on desktop */
-    }
-  }
-  
-  /* Mobile style (up to 768px) */
-  @media only screen and (max-width: 768px) {
-    .mobile-element {
-      display: block; /* Shows element on mobile */
-    }
-    .desktop-element {
-      display: none; /* Hide element on mobile */
-    }
-  }
   
