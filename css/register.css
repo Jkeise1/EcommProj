@@ -7,6 +7,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
+font-family: 'Alegreya Sans', sans-serif;
 }
 
  .card{
@@ -20,6 +21,10 @@ height: 100vh;
     width: 300px;
     margin: px; 
     box-sizing: border-box;
+}
+h2 {
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 label {
@@ -70,7 +75,7 @@ height: auto;
 z-index: -1;
 }
 .footer {
-position: fixed; 
+position: fixed;
 bottom: 0px; 
 width: 100%;
 background: #57236c;
@@ -80,6 +85,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+z-index: 1000;
 }
 .social-icon,
 .menu {
