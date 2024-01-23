@@ -19,3 +19,9 @@
 ![Alt text](<images/Cart Page.png>)
 
 ## After!
+![Alt text](<images/ProductsPageAfter.png>)
+![Alt text](<images/CartsPageAfter.png>)
+![Alt text](<images/ProductsPageAfter.png>)
+![Alt text](<images/RegistrationPageAfter.png>)
+![Alt text](LoginPageAfter.png>)
+
