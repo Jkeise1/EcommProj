@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -121,6 +122,7 @@ ul li{
 }
 
 .card {
+    font-size:15px;
     width: 300px; 
     display: inline-block;
     margin: 10px; 
@@ -128,7 +130,7 @@ ul li{
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    text-align: left; 
+    text-align: center; 
 }
 
 .card img {
