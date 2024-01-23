@@ -25,12 +25,17 @@ ul {
 
 li {
     margin: 0 15px; 
+    transition: background-color 0.50s;  
 }
 
 a {
     text-decoration: none;
     color: white; 
     font-weight: bold;
+}
+li:hover{
+    background-color: red;
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -68,7 +73,6 @@ a {
 .popup-form button {
     margin-top: 10px;
 }
-<<<<<<< HEAD
 .container{
     width: 100%;
     height: 100vh;
@@ -114,7 +118,38 @@ ul li{
     margin-left: 1em;
     font-family: 'Moon 2.0', sans-serif;
     color: white;
-=======
->>>>>>> 363bb4ed4b0e75472eb3c36683cfcca913685185
+}
 
+.card {
+    width: 300px; 
+    display: inline-block;
+    margin: 10px; 
+    box-sizing: border-box; 
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: left; 
+}
+
+.card img {
+    width: 100%; 
+    border-radius: 8px; 
+}
+
+.card p {
+    max-height: 150px; 
+    overflow: hidden; 
+}
+
+.card button {
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: red;
+}
   
