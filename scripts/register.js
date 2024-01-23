@@ -1,4 +1,4 @@
-const apiBaseURL = "http://microbloglite.us-east-2.elasticbeanstalk.com/auth/login";
+const apiBaseURL = "http://microbloglite.us-east-2.elasticbeanstalk.com";
 const username = document.getElementById("username");
 const fullName = document.getElementById("fullName");
 const password = document.getElementById("password");
@@ -30,7 +30,7 @@ function register() {
         }).then(response => {
             if (response.ok) {
                 resetForm();
-                window.location.assign("/");
+                window.location.assign("index.html");
             } else {
                 response.json().then(error => {
                     handleRegistrationError(error);
